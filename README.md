@@ -93,7 +93,7 @@ Example Results:
 
 ---
 
-## 📌 Key Learnings
+## Key Learnings
 
 * Importance of feature engineering in classical ML
 * Handling missing and categorical data effectively
@@ -102,13 +102,13 @@ Example Results:
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the **MIT License**.
 
 ---
 
-## 🙌 Acknowledgements
+## Acknowledgements
 
 * Kaggle Titanic Dataset
 * Scikit‑learn documentation
