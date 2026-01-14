@@ -1,13 +1,13 @@
 
 # 🚢 Titanic Survival Prediction using Machine Learning
 
-## 📌 Project Overview
+## Project Overview
 
 The project builds a **machine learning model to predict passenger survival on the Titanic** using demographic and travel-related features. It is based on the classic Kaggle Titanic dataset and demonstrates an **end‑to‑end ML workflow**, including data preprocessing, exploratory data analysis (EDA), feature engineering, model training, evaluation, and prediction.
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Given passenger information such as age, gender, ticket class, fare, and family size, predict whether a passenger **survived (1)** or **did not survive (0)** the Titanic disaster.
 
@@ -15,7 +15,7 @@ This is a **binary classification problem**.
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 * **Source:** Kaggle – Titanic: Machine Learning from Disaster
 * **Training set:** 891 rows × 12 columns
@@ -39,7 +39,7 @@ Target Variable:
 
 ---
 
-## 🔍 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 EDA was performed using:
 
@@ -49,7 +49,7 @@ EDA was performed using:
 
 ---
 
-## 🛠️ Data Preprocessing
+## Data Preprocessing
 
 The following preprocessing steps were applied:
 
@@ -61,7 +61,7 @@ The following preprocessing steps were applied:
 
 ---
 
-## 🤖 Models Used
+## Models Used
 
 Multiple machine learning models were trained and evaluated:
 
@@ -73,7 +73,7 @@ The final model was selected based on **accuracy, precision, recall, and cross�
 
 ---
 
-## 📊 Model Evaluation
+## Model Evaluation
 
 Evaluation metrics used:
 
@@ -93,7 +93,7 @@ Example Results:
 
 ---
 
-## 🚀 How to Run the Project
+## How to Run the Project
 
 ### 1️⃣ Clone the Repository
 
