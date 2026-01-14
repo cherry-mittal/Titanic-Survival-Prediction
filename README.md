@@ -1,20 +1,9 @@
-# Titanic-Survival-Prediction
-
-Explored and engineered features to improve survival predictions.
-Achieved high leaderboard score with Random Forest + hyperparameter tuning
-Imputed missing data, handled categorical encoding, feature scaling
-
-Data from Kaggle
-
-
 
 # 🚢 Titanic Survival Prediction using Machine Learning
 
 ## 📌 Project Overview
 
-This project builds a **machine learning model to predict passenger survival on the Titanic** using demographic and travel-related features. It is based on the classic Kaggle Titanic dataset and demonstrates an **end‑to‑end ML workflow**, including data preprocessing, exploratory data analysis (EDA), feature engineering, model training, evaluation, and prediction.
-
-The goal of this project is not only to achieve good prediction performance, but also to showcase **clean ML practices** suitable for portfolios and real‑world ML pipelines.
+The project builds a **machine learning model to predict passenger survival on the Titanic** using demographic and travel-related features. It is based on the classic Kaggle Titanic dataset and demonstrates an **end‑to‑end ML workflow**, including data preprocessing, exploratory data analysis (EDA), feature engineering, model training, evaluation, and prediction.
 
 ---
 
@@ -52,13 +41,6 @@ Target Variable:
 
 ## 🔍 Exploratory Data Analysis (EDA)
 
-Key insights discovered during analysis:
-
-* Females had a significantly higher survival rate than males
-* Passengers in **1st class** were more likely to survive
-* Higher fares generally correlated with higher survival probability
-* Children had better survival chances compared to adults
-
 EDA was performed using:
 
 * Distribution plots
@@ -71,7 +53,7 @@ EDA was performed using:
 
 The following preprocessing steps were applied:
 
-* Handling missing values (Age, Embarked)
+* Missing value imputation (Age, Embarked)
 * Dropping irrelevant features (e.g., PassengerId, Name, Ticket)
 * Encoding categorical variables (Sex, Embarked)
 * Feature scaling (where required)
@@ -86,7 +68,6 @@ Multiple machine learning models were trained and evaluated:
 * Logistic Regression
 * Decision Tree Classifier
 * Random Forest Classifier
-* (Optional) Gradient Boosting / XGBoost
 
 The final model was selected based on **accuracy, precision, recall, and cross‑validation performance**.
 
